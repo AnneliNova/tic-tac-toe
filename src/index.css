@@ -27,7 +27,19 @@ code {
 .square {
   width: 80px;
   height: 80px;
-  /* padding: 0; */
-  /* margin: 0; */
   text-align: center;
+  border:  1px solid grey;
+}
+.status {
+  display: flex;
+  justify-content: center;
+
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
